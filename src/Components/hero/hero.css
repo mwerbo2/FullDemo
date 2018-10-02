@@ -1,0 +1,41 @@
+.wrapper.hero {
+    background-size: 100%;
+    color: whitesmoke;
+    height: 1100px;
+    background-repeat: no-repeat;
+    padding: 20px;
+    position: relative;
+}
+
+.content{
+  transform: translate(0%, 275%);
+  padding: 0 50px 0 50px;
+}
+
+.red.button{
+  background-color:#ef5350  ;
+  border-color: #ef5350 ;
+  border: none;
+  font-size: 16px;
+  font-weight: 500;
+  color: white;
+  padding: 18px 32px;
+  cursor: pointer;
+}
+
+.red.button:hover{
+  background-color: white !important;
+  color: #ef5350 !important;
+  transition-duration: 0.45s;
+}
+
+.tint {
+    background:linear-gradient(
+      rgba(25, 25, 25, 0.35)
+      /* rgba(0, 0, 0, 0.35) */
+    ),
+    url('./bg.jpg');
+  }
+  
+
+  
