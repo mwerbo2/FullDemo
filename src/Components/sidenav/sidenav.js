@@ -20,6 +20,7 @@ class SideNav extends Component {
             as={Menu}
             animation='overlay'
             icon='labeled'
+            direction='right'
             inverted
             onHide={this.handleSidebarHide}
             vertical
@@ -41,11 +42,9 @@ class SideNav extends Component {
           </Sidebar>
 
           <Sidebar.Pusher dimmed={visible}>
-            <Segment basic>
-            
+            <Segment basic>         
               <Hero/>
-              <Button onClick={this.handleButtonClick}>Toggle visibility</Button>
-
+                  <Icon size='big' className="align justify top-right" onClick={this.handleButtonClick}/>
             </Segment>
           </Sidebar.Pusher>
         </Sidebar.Pushable>
