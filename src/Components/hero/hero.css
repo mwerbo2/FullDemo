@@ -1,17 +1,16 @@
-.container.hero {
+.wrapper.hero {
     background-size: 100%;
     color: whitesmoke;
-    height: 1000px;
+    height: 1100px;
     background-repeat: no-repeat;
     padding: 20px;
     position: relative;
 }
 
 .content{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);}
+  transform: translate(0%, 275%);
+  padding: 0 50px 0 50px;
+}
 
 .red.button{
   background-color:#ef5350  ;
@@ -25,9 +24,9 @@
 }
 
 .red.button:hover{
-  background-color: white;
-  color: #ef5350;
-  transition-duration: 0.5s;
+  background-color: white !important;
+  color: #ef5350 !important;
+  transition-duration: 0.45s;
 }
 
 .tint {

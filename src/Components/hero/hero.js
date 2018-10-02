@@ -1,21 +1,22 @@
 import React, { Component } from 'react';
 import './hero.css';
+import { Container, Button} from 'semantic-ui-react'
 
 class Hero extends Component {
     render() {
       return (
-        <div className="container hero tint">
-          <div className="content">
-            <h1>DevSmithOne</h1>
-            <h3>Building your web and mobile products while training future web developer professionals</h3>
+        <Container fluid className="wrapper hero tint" >
+            <div className="content">
+                <h1>DevSmithOne</h1>
+                <h3>Building your web and mobile products while training future web developer professionals</h3>
 
-            <button className="red button">Get in Touch</button>
+                <Button className="red button">Get in Touch</Button>
 
-          
-          </div>
+            
+            </div>
 
-       
-        </div>
+        
+      </Container>
       );
     }
   }
