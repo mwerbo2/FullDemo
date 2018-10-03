@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 import './sidenav.css';
 import { Button, Header, Icon, Image, Menu, Segment, Sidebar, Container } from 'semantic-ui-react'
-import Hero from '../hero/hero'
+import Hero from '../hero/hero';
+import NavItem from './nav-item/nav-item'
+
 
 class SideNav extends Component {
   state = { visible: false }
@@ -17,6 +19,7 @@ class SideNav extends Component {
       <Container fluid>
         <Sidebar.Pushable as={Segment}>
           <Sidebar
+            className='sidebar'
             as={Menu}
             animation='overlay'
             icon='labeled'
@@ -27,25 +30,28 @@ class SideNav extends Component {
             visible={visible}
             width='thin'
           >
-            <Menu.Item as='a'>
-              <Icon name='home' />
-              Home
-            </Menu.Item>
-            <Menu.Item as='a'>
-              <Icon name='gamepad' />
-              Games
-            </Menu.Item>
-            <Menu.Item as='a'>
-              <Icon name='camera' />
-              Channels
-            </Menu.Item>
+            <NavItem
+              icon='home'
+              title="Home"
+             />
+
+            <NavItem
+              icon='gamepad'
+              title="Games"
+             />
+
+            <NavItem
+              icon='camera'
+              title="Channels"
+             />
           </Sidebar>
 
           <Sidebar.Pusher dimmed={visible}>
-            <Segment basic>         
+            <Segment basic >         
               <Hero/>
                   <Icon size='big' className="align justify top-right" onClick={this.handleButtonClick}/>
             </Segment>
+
           </Sidebar.Pusher>
         </Sidebar.Pushable>
       </Container>

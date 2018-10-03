@@ -13,3 +13,8 @@
     color: #ef5350;
     cursor: pointer;
 }
+
+.sidebar{
+    padding-top: 25px;
+    width: 250px !important;
+}
