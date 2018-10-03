@@ -5,8 +5,8 @@ import { BrowserRouter, Router, Route, Switch } from "react-router-dom";
 
 import Landing from './Pages/landing';
 
-import NavItem from './Components/sidenav/nav-item/nav-item'
-
+import NavItem from './Components/sidenav/nav-item/nav-item';
+import Footer from './Components/Footer/Footer';
 
 
 class App extends Component {
@@ -54,8 +54,11 @@ class App extends Component {
               <Sidebar.Pusher dimmed={visible}>
                 
                 <Route path="/" component={Landing}/>
-                <Icon size='big' className="align justify top-right" onClick={this.handleButtonClick}/>
 
+
+
+                <Icon size='big' className="align justify top-right" onClick={this.handleButtonClick}/>
+                <Footer/>              
               </Sidebar.Pusher>
             </Sidebar.Pushable>
 
