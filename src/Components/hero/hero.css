@@ -1,7 +1,8 @@
 .wrapper.hero {
     background-size: 100%;
     color: whitesmoke;
-    height: 1100px;
+    height: 800px;
+    min-height: 100%;
     background-repeat: no-repeat;
     padding: 20px;
     position: relative;

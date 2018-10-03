@@ -8,3 +8,23 @@
   padding: 0px !important;
 }
 
+
+
+/* sidebar styles */
+.top-right{
+  position: absolute;
+  top: 4%;
+  left: 94%;
+  color: red;
+  right: 0
+}
+
+.top-right:hover{
+  color: #ef5350;
+  cursor: pointer;
+}
+
+.sidebar{
+  padding-top: 25px;
+  width: 250px !important;
+}
