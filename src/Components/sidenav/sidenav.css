@@ -1,0 +1,20 @@
+.top-right{
+    position: absolute;
+    /* border: 2px solid pink; */
+    z-index: 10 !important;
+    /* left: 0px; */
+    top: 4%;
+    left: 94%;
+    color: white;
+    right: 0
+}
+
+.top-right:hover{
+    color: #ef5350;
+    cursor: pointer;
+}
+
+.sidebar{
+    padding-top: 25px;
+    width: 250px !important;
+}

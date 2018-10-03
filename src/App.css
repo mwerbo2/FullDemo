@@ -1,10 +1,10 @@
-body {
-  margin-top: -21px;
-}
 
 .App {
   text-align: center;
   height: 100%;
 }
 
+.ui.basic.segment{
+  padding: 0px !important;
+}
 
