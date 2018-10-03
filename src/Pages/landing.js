@@ -6,9 +6,8 @@ import { Button, Header, Icon, Image, Menu, Segment, Sidebar, Container } from '
 class Landing extends Component {
     render() {
       return (
-        <Container fluid >
-            <Hero/>
-
+        <Container fluid className="wrapper tint">
+          <Hero/>
         </Container>
       );
     }
