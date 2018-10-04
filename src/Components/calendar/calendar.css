@@ -1,0 +1,11 @@
+.calendar{
+    height: 700px !important ;
+    padding: 20px;
+    border: 1px solid black;
+    margin: 10px;
+}
+
+.rbc-day-bg{
+    /* color: blue; */
+    /* background-color: red; */
+}
