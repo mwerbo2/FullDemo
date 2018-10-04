@@ -7,6 +7,7 @@ import Landing from './Pages/landing';
 
 import NavItem from './Components/sidenav/nav-item/nav-item';
 import Footer from './Components/Footer/Footer';
+import Calendar from './Components/calendar/calendar';
 
 
 class App extends Component {
@@ -56,6 +57,7 @@ class App extends Component {
               <Sidebar.Pusher dimmed={visible}>
 
                   <Route path="/" component={Landing}/>
+                  <Calendar/>
 
                   <Icon size='big' className="align justify top-right" onClick={this.handleButtonClick}/>
                   <Footer/>      
