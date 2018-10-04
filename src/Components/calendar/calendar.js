@@ -3,15 +3,14 @@ import Hero from '../Components/hero/hero';
 import { Button, Header, Icon, Image, Menu, Segment, Sidebar, Container } from 'semantic-ui-react'
 
 
-class Landing extends Component {
+class Calendar extends Component {
     render() {
       return (
-        <Container fluid className="wrapper tint">
-          <Hero/>
+        <Container fluid>
         </Container>
       );
     }
   }
   
-  export default Landing;
+  export default Calendar;
   

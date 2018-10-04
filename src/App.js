@@ -21,7 +21,9 @@ class App extends Component {
 
     return (
       <BrowserRouter> 
-        <Container fluid className="App">
+      <div className="App">
+        <Container fluid >
+
           <Sidebar.Pushable as={Segment}>
             <Sidebar
               className='sidebar'
@@ -52,17 +54,17 @@ class App extends Component {
             </Sidebar>
 
               <Sidebar.Pusher dimmed={visible}>
-                
-                <Route path="/" component={Landing}/>
 
+                  <Route path="/" component={Landing}/>
 
+                  <Icon size='big' className="align justify top-right" onClick={this.handleButtonClick}/>
+                  <Footer/>      
 
-                <Icon size='big' className="align justify top-right" onClick={this.handleButtonClick}/>
-                <Footer/>              
               </Sidebar.Pusher>
             </Sidebar.Pushable>
 
           </Container>
+        </div>
       </BrowserRouter>
     );
   }
