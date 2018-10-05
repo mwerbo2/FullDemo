@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Button, Header, Icon, Image, Menu, Segment, Sidebar, Container } from 'semantic-ui-react'
+import { Container } from 'semantic-ui-react'
 import BigCalendar from 'react-big-calendar';
 import moment from 'moment';
 import events from './events'

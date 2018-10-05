@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Hero from '../../Components/hero/hero';
-import { Button, Header, Icon, Image, Menu, Segment, Sidebar, Container } from 'semantic-ui-react'
+import { Container } from 'semantic-ui-react'
 
 
 class Landing extends Component {
@@ -8,6 +8,8 @@ class Landing extends Component {
       return (
         <Container fluid className="wrapper tint">
           <Hero/>
+
+
         </Container>
       );
     }
