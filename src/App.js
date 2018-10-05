@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
-import { Button, Header, Icon, Image, Menu, Segment, Sidebar, Container } from 'semantic-ui-react'
-import { BrowserRouter, Router, Route, Switch } from "react-router-dom";
+import {  Icon, Menu, Segment, Sidebar, Container } from 'semantic-ui-react'
+import { BrowserRouter, Route } from "react-router-dom";
 import Landing from './Pages/Landing/landing';
 import About from './Pages/About/about';
 import NavItem from './Components/sidenav/nav-item/nav-item';
@@ -21,8 +21,10 @@ class App extends Component {
         <Container fluid >
           <Sidebar.Pushable as={Segment}>
             <Sidebar.Pusher dimmed={visible}>
+
+                
                   <Route exact path="/" component={Landing}/>
-                  <Calendar/>
+                  {/* <Calendar/> */}
                   <Route path="/about" component={About}/>
                   
 
@@ -48,14 +50,21 @@ class App extends Component {
               <NavItem
                 icon='home'
                 title="Home"
+                link="/"
+                onHide={this.handleSidebarHide}
               />
               <NavItem
-                icon='gamepad'
-                title="Games"
+                icon='comment'
+                title="About"
+                link="/about"
+                onHide={this.handleSidebarHide}
               />
               <NavItem
-                icon='camera'
-                title="Channels"
+                icon='address card'
+                title="Contact"
+                link="/contact"
+                onHide={this.handleSidebarHide}
+
               />
             </Sidebar>
         </div>

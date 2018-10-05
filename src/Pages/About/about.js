@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Grid, Responsive, Button, Header, Icon, Image, Menu, Segment, Sidebar, Container } from 'semantic-ui-react'
+import { Grid, Responsive, Image, Segment, Container } from 'semantic-ui-react'
 import './about.css';
 import hopes from './hopes.jpg'
 
