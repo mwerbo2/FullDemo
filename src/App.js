@@ -7,6 +7,7 @@ import About from './Pages/About/about';
 import NavItem from './Components/sidenav/nav-item/nav-item';
 import Footer from './Components/Footer/Footer';
 import Calendar from './Components/calendar/calendar';
+import Contact from './Pages/Contact/Contact';
 class App extends Component {
   state = { visible: false }
   handleButtonClick = () => this.setState({ visible: !this.state.visible })
@@ -45,10 +46,12 @@ class App extends Component {
             </Sidebar>
               <Sidebar.Pusher dimmed={visible}>
                   <Route exact path="/" component={Landing}/>
-                  <Calendar/>
+                  <Route exact path="contact" component={Contact}/>
+                  {/* <Calendar/> */}
+                  <Contact/>
                   <Route path="/about" component={About}/>
                   <Icon size='big' className="align justify top-right" onClick={this.handleButtonClick}/>
-                  <Footer/>      
+                  {/* <Footer/>       */}
               </Sidebar.Pusher>
             </Sidebar.Pushable>
           </Container>
