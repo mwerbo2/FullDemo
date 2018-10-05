@@ -11,7 +11,7 @@ class Services extends Component {
     <Grid.Column>
       <Segment>
         
-<p> 
+
         <Rail dividing position='left'>
           <Segment>Left Rail Content</Segment>
         </Rail>
