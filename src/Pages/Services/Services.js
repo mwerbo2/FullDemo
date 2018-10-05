@@ -10,8 +10,8 @@ class Services extends Component {
             <Grid centered columns={3}>
     <Grid.Column>
       <Segment>
-        <Image src='/images/wireframe/paragraph.png' />
-
+        
+<p> 
         <Rail dividing position='left'>
           <Segment>Left Rail Content</Segment>
         </Rail>
