@@ -3,12 +3,19 @@ import './App.css';
 import { Button, Header, Icon, Image, Menu, Segment, Sidebar, Container } from 'semantic-ui-react'
 import { BrowserRouter, Router, Route, Switch } from "react-router-dom";
 
-import Landing from './Pages/landing';
+import Landing from './Pages/Landing/landing';
+import About from './Pages/About/about';
+
+
 
 import NavItem from './Components/sidenav/nav-item/nav-item';
 import Footer from './Components/Footer/Footer';
+<<<<<<< HEAD
 import Calendar from './Components/calendar/calendar';
 import ContactUs from './Pages/Contact/Contact';
+=======
+// import Calendar from './Components/calendar/calendar';
+>>>>>>> e72d93822f4cd8fa8f8dc1e16c841a8825aba235
 
 
 class App extends Component {
@@ -57,10 +64,16 @@ class App extends Component {
 
               <Sidebar.Pusher dimmed={visible}>
 
+<<<<<<< HEAD
                   <Route path="/" component={Landing}/>
                   {/* <Route path="/contact" component={ContactUs}/> */}
                   <Calendar/>
                   <ContactUs />
+=======
+                  <Route exact path="/" component={Landing}/>
+                  {/* <Calendar/> */}
+                  <Route path="/about" component={About}/>
+>>>>>>> e72d93822f4cd8fa8f8dc1e16c841a8825aba235
 
                   <Icon size='big' className="align justify top-right" onClick={this.handleButtonClick}/>
                   <Footer/>      

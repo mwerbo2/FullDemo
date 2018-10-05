@@ -1,0 +1,18 @@
+.about-wrapper{
+    margin: 20px;
+    height: 600px;
+    width: 800px !important;
+    text-align: center !important;
+}
+
+
+.box{
+    border: 1px solid pink;
+    height: 400px;
+    width: 100%;
+    display: inline-block;
+}
+
+/* .about{
+    border: 1px solid black;
+} */
