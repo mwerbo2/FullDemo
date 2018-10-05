@@ -6,16 +6,16 @@
 
 .ui.fluid.container {
   height: 100% !important;
-
+  z-index: 1;
 }
 
 /* sidebar styles */
 .top-right{
   position: fixed !important;
-  top: 4%;
-  left: 94%;
+  top: 8%; 
   color: red;
-  right: 0
+  right: 6%;
+  z-index: 1;
 }
 
 .top-right:hover{
@@ -23,7 +23,7 @@
   cursor: pointer;
 }
 
-.sidebar{
+.ui.visible.right.overlay.sidebar{
   padding-top: 25px;
   width: 250px !important;
 }
