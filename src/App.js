@@ -10,7 +10,7 @@ import About from './Pages/About/about';
 
 import NavItem from './Components/sidenav/nav-item/nav-item';
 import Footer from './Components/Footer/Footer';
-// import Calendar from './Components/calendar/calendar';
+import Calendar from './Components/calendar/calendar';
 
 
 class App extends Component {
@@ -60,7 +60,7 @@ class App extends Component {
               <Sidebar.Pusher dimmed={visible}>
 
                   <Route exact path="/" component={Landing}/>
-                  {/* <Calendar/> */}
+                  <Calendar/>
                   <Route path="/about" component={About}/>
 
                   <Icon size='big' className="align justify top-right" onClick={this.handleButtonClick}/>

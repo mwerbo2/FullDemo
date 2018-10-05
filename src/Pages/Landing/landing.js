@@ -8,6 +8,8 @@ class Landing extends Component {
       return (
         <Container fluid className="wrapper tint">
           <Hero/>
+
+
         </Container>
       );
     }
