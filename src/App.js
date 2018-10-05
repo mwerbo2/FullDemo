@@ -33,7 +33,7 @@ class App extends Component {
                   {/* <Calendar/> */}
                   <Route path="/about" component={About}/>
                   <Route exact path="/contact" component={Contact}/>
-
+                  <Route exact path="/services" component={Services}/>
                   <Footer/>      
               </Sidebar.Pusher>
             </Sidebar.Pushable>

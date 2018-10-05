@@ -1,27 +1,60 @@
 import React, { Component} from "react";
 import "./Services.css";
-import { Grid, Image, Rail, Segment } from 'semantic-ui-react'
+import { Grid, Image, Rail, Segment, Container, Responsive } from 'semantic-ui-react'
 
 class Services extends Component {
 
     render() {
 
         return(
-            <Grid centered columns={3}>
-    <Grid.Column>
-      <Segment>
-        
+          <Container fluid className="services-wrapper">
+          <Grid centered columns={2}>
+          <Grid.Column>
+            <p> Image </p>
+          </Grid.Column>
+      
+          <Grid.Row centered columns={4}>
+            <Grid.Column>
+              <Segment>
+SERVICES 
+</Segment>
+<Segment>
+Development 
+</Segment>
+Mobile applications
 
-        <Rail dividing position='left'>
-          <Segment>Left Rail Content</Segment>
-        </Rail>
+UX Design
 
-        <Rail dividing position='right'>
-          <Segment>Right Rail Content</Segment>
-        </Rail>
-      </Segment>
-    </Grid.Column>
-  </Grid>
+Business Solutions
+
+Quality engineering
+
+Managed services
+            </Grid.Column>
+            <Grid.Column>
+              <Image src='/images/wireframe/image.png' />
+            </Grid.Column>
+            <Grid.Column>
+              <Image src='/images/wireframe/image.png' />
+            </Grid.Column>
+          </Grid.Row>
+      
+          <Grid.Row centered columns={4}>
+            <Grid.Column>
+              <Image src='/images/wireframe/image.png' />
+            </Grid.Column>
+            <Grid.Column>
+              <Image src='/images/wireframe/image.png' />
+            </Grid.Column>
+            <Grid.Column>
+              <Image src='/images/wireframe/image.png' />
+            </Grid.Column>
+            <Grid.Column>
+              <Image src='/images/wireframe/image.png' />
+            </Grid.Column>
+          </Grid.Row>
+        </Grid>
+        </Container>
         )
     };
 }
