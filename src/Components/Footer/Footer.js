@@ -3,7 +3,7 @@ import "./Footer.css";
 
 const Footer = () => (
     <footer>
-        <div className="ui container-fluid footer black">
+        
             <div className="ui container">
                 <div className="ui equal width grid">
                     <div className="column left-column">
@@ -29,12 +29,13 @@ const Footer = () => (
                             <a target="_blank">About</a>
                             <br></br>
                             <a target="_blank">Contact</a>
+                            <br></br>
                         </p>
 
                     </div>
                 </div>
             </div>
-        </div>
+     
 
     </footer>
 
