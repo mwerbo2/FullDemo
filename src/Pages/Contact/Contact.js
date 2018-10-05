@@ -2,6 +2,7 @@ import React from 'react'
 import { Button, Checkbox, Form } from 'semantic-ui-react'
 
 const ContactUs = () => (
+  <Container textAlign='justified'>
   <Form>
     <Form.Field>
       <label>First Name</label>
@@ -16,6 +17,7 @@ const ContactUs = () => (
     </Form.Field>
     <Button type='submit'>Submit</Button>
   </Form>
+</Container>  
 )
 
 export default ContactUs
