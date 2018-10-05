@@ -11,6 +11,7 @@ import About from './Pages/About/about';
 import NavItem from './Components/sidenav/nav-item/nav-item';
 import Footer from './Components/Footer/Footer';
 // import Calendar from './Components/calendar/calendar';
+import Services from "./Pages/Services/Services";
 
 
 class App extends Component {
@@ -62,7 +63,7 @@ class App extends Component {
                   <Route exact path="/" component={Landing}/>
                   {/* <Calendar/> */}
                   <Route path="/about" component={About}/>
-
+                  <Route path="/services" component={Services}/>
                   <Icon size='big' className="align justify top-right" onClick={this.handleButtonClick}/>
                   <Footer/>      
 
