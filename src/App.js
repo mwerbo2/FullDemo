@@ -28,7 +28,7 @@ class App extends Component {
                   <Route exact path="/" component={Landing}/>
                   {/* <Calendar/> */}
                   <Route path="/about" component={About}/>
-                  <Route exact path="contact" component={Contact}/>
+                  <Route exact path="/contact" component={Contact}/>
 
                   <Footer/>      
               </Sidebar.Pusher>
