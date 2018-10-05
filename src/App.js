@@ -7,6 +7,8 @@ import About from './Pages/About/about';
 import NavItem from './Components/sidenav/nav-item/nav-item';
 import Footer from './Components/Footer/Footer';
 import Calendar from './Components/calendar/calendar';
+import Contact from './Pages/Contact/Contact';
+
 
 class App extends Component {
   state = { visible: false }
@@ -26,7 +28,7 @@ class App extends Component {
                   <Route exact path="/" component={Landing}/>
                   {/* <Calendar/> */}
                   <Route path="/about" component={About}/>
-                  
+                  <Route exact path="contact" component={Contact}/>
 
                   <Footer/>      
               </Sidebar.Pusher>
