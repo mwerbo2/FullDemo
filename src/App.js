@@ -6,6 +6,10 @@ import Landing from './Pages/Landing/landing';
 import About from './Pages/About/about';
 import NavItem from './Components/sidenav/nav-item/nav-item';
 import Footer from './Components/Footer/Footer';
+// import Calendar from './Components/calendar/calendar';
+import Services from "./Pages/Services/Services";
+
+
 import Calendar from './Components/calendar/calendar';
 import Contact from './Pages/Contact/Contact';
 
@@ -29,7 +33,7 @@ class App extends Component {
                   {/* <Calendar/> */}
                   <Route path="/about" component={About}/>
                   <Route exact path="/contact" component={Contact}/>
-
+                  <Route exact path="/services" component={Services}/>
                   <Footer/>      
               </Sidebar.Pusher>
             </Sidebar.Pushable>

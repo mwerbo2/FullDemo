@@ -1,0 +1,30 @@
+.footer-wrapper {
+
+    /* margin-top: 5%; */
+    padding: 3% 0 3% 0; 
+    background: #3d3d3d;
+    color: white;
+    padding-left: 200px;
+}
+
+.location {
+    margin-left: 50px;
+}
+
+.small-link {
+    padding-left: 15px;
+}
+
+@media only screen and (max-width: 560px) {
+    div.five.wide.column.location.section {
+        margin-left: 0 auto;
+        text-align: center !important;
+    }
+
+    .footer-wrapper {
+        padding: 3% 0 3% 0; 
+        background: #3d3d3d;
+        color: white;
+        padding-left: 0px;
+    }
+}
