@@ -5,12 +5,10 @@
     width: 1200px !important;
     text-align: center !important;
     padding: 40px;
-        /* background-color: #1b1c1d; */
 }
 
 
 .box{
-    /* border: 1px solid pink; */
     height: 400px;
     width: 100%;
     display: inline-block;
@@ -21,13 +19,42 @@
 .about-title{
     position: absolute;
     z-index: 1;
+    color: white;
+    background-color: rgba(0,0,0, 0.7);
+    padding: 20px;
+    top: 44%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
 }
+
+.about-title:hover{
+    background-color: rgba(0,0,0, 0.8);
+
+}
+
 
 #about-hero{
     height: 100% !important;
     display: inline-block;
 }
 
-/* .about-picture{
-    max-height: 400px;
-} */
+.tint-green{
+    display:inline-block;
+    height: 320px;
+    background:linear-gradient(
+      rgba(137, 255, 162, 0.35)
+      /* rgba(0, 194, 42, 0.35) */
+    ),url('./office.jpg');
+    background-size: 100% 100%;
+}
+
+.tint-yellow{
+    display:block;
+    height: 300px;
+    background:linear-gradient(
+      rgba(237, 255, 137, 0.35)
+      /* rgba(0, 194, 42, 0.35) */
+    ),url('./office2.jpg');
+    background-size: 100% 100%;
+}

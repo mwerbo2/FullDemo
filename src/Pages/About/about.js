@@ -18,7 +18,6 @@ class AboutMe extends Component {
 
           <Responsive className="box">
             <Image id='about-hero' src={team}></Image>
-            {/* <h1 className='about-title'>DevSmithOne</h1> */}
           </Responsive>
         
           <Segment className="about">
@@ -35,10 +34,16 @@ class AboutMe extends Component {
           <Grid divided='vertically'>
             <Grid.Row columns={2}>
               <Grid.Column stretched>
-                <Image src={office}/>
+                {/* <Image className='about-pic'src={office}/> */}
+                <div className='tint-green'></div>
+                <h1 className='about-title'>Our Process</h1>
+
               </Grid.Column>
               <Grid.Column stretched>
-                <Image src={office2} />
+                {/* <Image src={office2} /> */}
+                <div className='tint-yellow'></div>
+                <h1 className='about-title'>Our Merit</h1>
+
               </Grid.Column>
             </Grid.Row>
           </Grid>
