@@ -1,18 +1,33 @@
+
 .about-wrapper{
-    margin: 20px;
+    margin-bottom: 20px;
     height: 600px;
-    width: 800px !important;
+    width: 1200px !important;
     text-align: center !important;
+    padding: 40px;
+        /* background-color: #1b1c1d; */
 }
 
 
 .box{
-    border: 1px solid pink;
+    /* border: 1px solid pink; */
     height: 400px;
     width: 100%;
     display: inline-block;
+    text-align: center;
+
 }
 
-/* .about{
-    border: 1px solid black;
+.about-title{
+    position: absolute;
+    z-index: 1;
+}
+
+#about-hero{
+    height: 100% !important;
+    display: inline-block;
+}
+
+/* .about-picture{
+    max-height: 400px;
 } */
