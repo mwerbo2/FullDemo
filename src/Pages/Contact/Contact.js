@@ -47,8 +47,8 @@ const ContactUs = () => (
             <input placeholder='Email' />
           </Form.Field>
         </Form.Group>
-        <Form.TextArea label='About' placeholder='Tell us more about you...' />
-          <Button type='submit'>Submit</Button>
+          <Form.TextArea label='About' placeholder='Tell us more about you...' />
+            <Button type='submit'>Submit</Button>
       </Form>
     </Grid.Column>  
   </Grid.Row>
