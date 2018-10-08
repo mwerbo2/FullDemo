@@ -65,6 +65,13 @@ class App extends Component {
                 link="/about"
                 onHide={this.handleSidebarHide}
               />
+
+              <NavItem
+                icon='handshake'
+                title="Service"
+                link="/services"
+                onHide={this.handleSidebarHide}
+              />
               <NavItem
                 icon='address card'
                 title="Contact"
